@@ -72,8 +72,8 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/acharya221b/Doctor_Visit_Analysis.git
+    cd Doctor_Visit_Analysis
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -83,19 +83,6 @@ To run this project locally, follow these steps:
     ```
 
 3.  **Install the required libraries:**
-    A `requirements.txt` file should be created with the following content:
-    ```
-    streamlit
-    pandas
-    plotly
-    scikit-learn
-    matplotlib
-    seaborn
-    lime
-    shap
-    imbalanced-learn
-    ```
-    Then, run the installation command:
     ```bash
     pip install -r requirements.txt
     ```
@@ -114,3 +101,4 @@ To run this project locally, follow these steps:
 *   **Broader Applications**: Apply similar analytical methodologies to other age groups or different public health datasets.
 *   **Policy Impact**: Collaborate with policymakers and healthcare organizations to translate insights from this dashboard into tangible healthcare improvements and policies.
 *   **Model Performance with Balanced Data**: Fully implement the synthetically generated dataset (from the bias correction step) for training a new prediction model and formally analyze how the model's performance and fairness metrics are affected.
+
