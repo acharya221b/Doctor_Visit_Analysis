@@ -42,7 +42,7 @@ The dataset originates from the University of Michigan's **National Poll on Heal
 ## 📂 Project Structure
 
 The application is modularized into several Python files, each handling a specific page or functionality within the Streamlit app.
-
+```
 ├── NPHA-doctor-visits.csv # The dataset file
 ├── main_app.py # Main application - handles page navigation
 ├── welcome.py # The landing/welcome page
@@ -52,7 +52,7 @@ The application is modularized into several Python files, each handling a specif
 ├── predict.py # 'Making a Prediction' page for user-input predictions
 ├── bias.py # 'Bias Correction' page demonstrating over-sampling
 └── requirements.txt # Python dependencies
-
+```
 ---
 
 ## 🛠️ Technologies & Libraries
@@ -101,4 +101,5 @@ To run this project locally, follow these steps:
 *   **Broader Applications**: Apply similar analytical methodologies to other age groups or different public health datasets.
 *   **Policy Impact**: Collaborate with policymakers and healthcare organizations to translate insights from this dashboard into tangible healthcare improvements and policies.
 *   **Model Performance with Balanced Data**: Fully implement the synthetically generated dataset (from the bias correction step) for training a new prediction model and formally analyze how the model's performance and fairness metrics are affected.
+
 
